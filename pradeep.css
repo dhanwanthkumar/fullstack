@@ -1,0 +1,48 @@
+.jobform{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 50px;
+
+}
+.left-form {
+
+  background-color: gray;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  padding: 10px;
+  row-gap: 50px;
+  column-gap: 60px;
+}
+
+.select{
+  padding: 10px;
+  display: flex;
+  height: fit-content;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.job {
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+.job-box{
+  display:grid;
+  column-gap: 30px;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+
+}
+
+.job1{
+  display: flex;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.inner-rightbox{
+  margin: 10px;
+  background-color: grey;
+}
